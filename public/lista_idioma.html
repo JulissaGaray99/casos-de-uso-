@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Alfred</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Tangerine" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/listar.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href=".html">Inicio</a>
+      <a href=".html">Instituciones</a>
+      <a href=".html">Rankings</a>
+      <img src="imgs/img_settings.png" class="header_derecha" href=".html">
+      <img src="imgs/img_perfil.png" class="header_derecha" href=".html">
+      <a href=".html" class="header_derecha">Panel de Control</a>
+    </nav>
+    <div id="banner"
+      style="background-image: url('imgs/foto4.jpg');background-repeat: no-repeat;background-size: cover; background-color: rgba(0, 0, 0, 0.8);">
+      <h1>Alfred</h1>
+    </div>
+  </header>
+  <main>
+    <h1>Idiomas</h1>
+    <form class="frm_buscar_idioma">
+      <input type="search" name="buscar_idioma" value="">
+      <button type="button" name="button">Buscar</button>
+    </form>
+    <table id="tbl_idiomas">
+      <thead>
+        <th>cedula</th>
+        <th>Idioma:</th>
+        <th>Duración:</th>
+        <th>Certificado:</th>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <td>Español</td>
+          <td>3 meses</td>
+          <td>Sí</td>
+        </tr> -->
+      </tbody>
+    </table>
+  </main>
+  <footer>
+    <p>© Copyright 2018. Alfred. Todos los derechos reservados</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/servicio.js"></script>
+  <script src="js/controlador_listar.js"></script>
+</body>
+
+</html>
